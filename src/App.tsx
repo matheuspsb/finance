@@ -1,6 +1,21 @@
+import { useState, useEffect } from 'react';
 import * as C from './App.styles';
+import { Item } from './types/Item'
+import { Category } from './types/Category'
+import { categories } from './data/categories';
+import { items } from './data/items';
+import { getCurrentMonth } from './helpers/dateFilter';
 
 const App = () => {
+
+  const [list, setList] = useState(items);                                   /* Lista Completa */
+  const [filteredList, setFilteredList] = useState<Item[]>([]);
+  const [currentMonth, setCurrentMonth] = useState(getCurrentMonth());
+  
+  useEffect(()=>{
+    
+  }, [list, currentMonth]);
+  
   return(
     <C.Container>
       <C.Header>
@@ -8,7 +23,7 @@ const App = () => {
       </C.Header>
       <C.Body>
         
-        
+
 
       </C.Body>
     </C.Container>
