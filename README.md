@@ -1,6 +1,6 @@
 # Personal Finance Controller
 
-    This is a small project that was developed with the purpose of being a personal finance controller
+This is a small project that was developed with the purpose of being a personal finance controller
 ## Available Scripts
 
 In the project directory, you can run:
