@@ -1,7 +1,6 @@
-# Getting Started with Create React App
+# Personal Finance Controller
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+    This is a small project that was developed with the purpose of being a personal finance controller
 ## Available Scripts
 
 In the project directory, you can run:
